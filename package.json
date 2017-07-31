@@ -1,0 +1,41 @@
+{
+  "name": "apioid",
+  "version": "1.0.0",
+  "description": "Easy JSON-APIs for NodeJS.",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex94puchades/apioid.git"
+  },
+  "keywords": [
+    "jsonapi",
+    "rest",
+    "api",
+    "express",
+    "connect",
+    "middleware"
+  ],
+  "author": "Alex Puchades <alex94puchades+dev@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/alex94puchades/apioid/issues"
+  },
+  "homepage": "https://github.com/alex94puchades/apioid#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sourcemaps-support": "0.0.1",
+    "gulp-typescript": "^3.2.1",
+    "merge2": "^1.1.0",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "@types/node": "^8.0.17",
+    "maybe-async": "^1.1.2"
+  }
+}
